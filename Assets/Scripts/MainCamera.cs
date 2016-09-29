@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Camera : MonoBehaviour {
+public class MainCamera : MonoBehaviour {
 
     private Transform lookAt;
     private Vector3 startOffset;
