@@ -8,7 +8,7 @@ public class MainCamera : MonoBehaviour {
     private Vector3 moveVector;
 
     private float transition = 0f;
-    private float animationDuration = 3f;
+    private float animationDuration = 2f;
     private Vector3 animationOffset = new Vector3(0, 5, 5);
 
 	// Use this for initialization

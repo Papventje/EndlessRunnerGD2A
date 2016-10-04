@@ -38,4 +38,9 @@ public class Score : MonoBehaviour {
 
         Debug.Log("Woah");
     }
+
+    public void onDeath()
+    {
+
+    }
 }
