@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour {
 
     private float score = 0f;
-    private int difficulty = 1;
+    private int difficulty = 2;
     private int maxDifficulty = 10;
     private int nextDifficulty = 10;
 

@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         if (controller.transform.position.y <= -10)
         {
             Debug.Log("U diedeidiedid");
+            Death();
         }
 
         if (animationTimer == false)
@@ -64,7 +65,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private void Death()
     {
-        //
+        GetComponent<Menu>().endMenu();
     }
 
     IEnumerator Timer()

@@ -32,6 +32,11 @@ public class Menu : MonoBehaviour {
         SceneManager.LoadScene("Instructions");
     }
 
+    public void endMenu()
+    {
+        SceneManager.LoadScene("Gameover");
+    }
+
 
     public void playLevel()
     {
